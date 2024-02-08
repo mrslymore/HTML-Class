@@ -19,3 +19,14 @@ body{
         padding: 10px;
     }
 }
+
+.top{
+    background-color: rgba(0, 0, 0, 50%) ;
+    position: fixed;
+    display: block;
+
+    .prfilePik{
+        height: auto;
+        width: 10px;
+    }
+}
