@@ -1,6 +1,63 @@
-body{
-    background-color: #280030;
-    display: flex;
-    justify-items: center;
+*{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
 
+
+body{
+    background: #f0c27b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f0c27b, #4b1248); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f0c27b, #4b1248); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    color: #fafafa;
+}
+.item{
+    border-radius: 10px;
+    width: 15rem;
+    height: auto;
+    background-color: rgba(40,40,50,55%);
+    p{
+        padding: 10px;
+    }
+    h1{
+        padding: 10px;
+    }
+
+}
+
+.top{
+    background-color: rgba(0, 0, 0, 50%) ;
+    position: fixed;
+    display: block;
+    top:0%;
+    
+    left:0%;
+    width:100%;
+
+    transform: translate(0%,0%);
+    .prfilePik{
+        height: auto;
+        width: 20px;
+        padding:4px;
+        }
+    a{
+        text-align: center;
+        color: #ffd0d0;
+
+        padding: 10px;
+        transform: translate(0%,0%);
+    }
+}
+.cat{
+    display: grid;
+    width: auto;
+
+    justify-content: center;
+    .catimg{
+
+        width:auto;
+
+        height:10rem;
+        margin: auto;
+    }
 }
