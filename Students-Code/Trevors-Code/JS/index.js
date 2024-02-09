@@ -15,7 +15,7 @@ function getcat() {
         headers: headers,
         redirect: 'follow'
     };
-    fetch("https://api.thecatapi.com/v1/images/search?size=med&mime_types=jpg&format=json&has_breeds=true&order=RANDOM&page=0&limit=1", requestOptions)
+    fetch("https://api.thecatapi.com/v1/images/search?size=small&mime_types=jpg&format=json&has_breeds=true&order=RANDOM&page=0&limit=1", requestOptions)
         .then(response => response.json())
         .then(data => {
             // Accessing the URL of the first cat image in the response
